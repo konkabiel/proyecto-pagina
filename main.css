@@ -12129,4 +12129,54 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+#ribbon {
+  background-color: #8d0021;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(234, 120, 223, 0.712) 25px, rgba(234, 120, 223, 0.712) 40px);
+}
+
+#ribborn::after {
+  content: '';
+  background-color: transparent;
+  display: block;
+  height: 20px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  left: auto;
+  margin-top: -30px;
+}
+
+#birthday {
+  background-color: #ffaedf;
+  position: relative;
+  margin-top: -15px;
+  z-index: 10;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+
+#birthday img {
+  position: relative;
+  margin-top: -30px;
+}
+
+.text-shadow {
+  text-shadow: o 3px 3px black;
+}
+
+#separator-ribbon {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+#separator-ribbon .content {
+  width: 150%;
+  height: 150px;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
 /*# sourceMappingURL=main.css.map */
