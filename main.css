@@ -12179,4 +12179,17 @@ fieldset:disabled .btn {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
+
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
 /*# sourceMappingURL=main.css.map */
